@@ -48,7 +48,7 @@ Turing a montré qu'il existe une machine de Turing **universelle** qui peut sim
 
 Nous avons différents exemples de situations ou des programmes sont des données d'un autre programme:
 
-#.  Un système d'exploitation est un ensemble de programmes capbles d'exécuter différents programmes. Cela signifie qu'il sont les données des programmes du système d'exploitation.
+#.  Un système d'exploitation est un ensemble de programmes capables d'exécuter différents programmes. Cela signifie qu'il sont les données des programmes du système d'exploitation.
 #.  Les logiciels sont pour la plupart des programmes compilés, par souci d'optimisation. Cela signifie qu'ils sont transformés en fichiers binaires directement lisibles par le processeur et donc rapide à l'exécution. La compilation est un programme qui prend en donnée un programme écrit dans un certain langage et le transforme en fichier binaire exécutable. Par exemple, sur le système Linux, on a le compilateur **gcc**.
 #.  Python est un langage **interprété**. L'interpréteur de python est un programme qui prend en donnée chaque instruction du programme écrit en Python et la rend exécutable par l'ordinateur. 
 
@@ -56,7 +56,7 @@ Nous avons différents exemples de situations ou des programmes sont des donnée
 Calculabilité - Décidabilité
 -----------------------------
 
-Un ordinateur peut-il tout calculer ? Tout problème peut-il être résolu par un algorithme ? Cette question a été résolue dans les années 1936 - 1937 par Alan Turing et Alonso Church. Ils ont montré, par deux approches différentes, que certains problèmes étéient **indécidable** et que des nombres sont non **calculables**.
+Un ordinateur peut-il tout calculer ? Tout problème peut-il être résolu par un algorithme ? Cette question a été résolue dans les années 1936 - 1937 par Alan Turing et Alonso Church. Ils ont montré, par deux approches différentes, que certains problèmes sont **indécidable** et que des nombres sont non **calculables**.
 
 .. rubric:: Calculabilité
 
