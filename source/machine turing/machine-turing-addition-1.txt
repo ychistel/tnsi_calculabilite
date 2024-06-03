@@ -1,0 +1,13 @@
+; Programme qui ajoute 1 à un nombre binaire.
+
+; Machine débute à l'état 0 avec la tête de lecture sous le chiffre de gauche
+
+; état 0: il faut déplacer la tête sous le chiffre le plus à droite
+0 _ _ l 1
+0 0 0 r 0
+0 1 1 r 0
+
+; State 1: on ajoute 1 en binaire
+1 _ 1 * halt
+1 0 1 * halt
+1 1 0 l 1

@@ -1,0 +1,19 @@
+; Programme qui remplace chaque 0 par 1 : complément à 1
+; Input: a string of 0's and 1's, eg '1001001'
+
+; Machine débute à l'état 0 avec la tête de lecture sous le chiffre de gauche
+
+; état 0: il faut déplacer la tête sous le chiffre le plus à droite
+0 _ _ l 1
+0 0 0 r 0
+0 1 1 r 0
+
+; état 1: complément à 1
+1 _ _ r 2
+1 0 1 l 1
+1 1 0 l 1
+
+; état 2: on remet la tête de lecture sous le bit de poids faible avec arrêt
+2 _ _ l halt
+2 0 0 r 2
+2 1 1 r 2

@@ -1,0 +1,13 @@
+; Programme qui multiplie un nombre binaire par 2.
+
+; Machine débute à l'état 0
+
+; état 0: il faut déplacer la tête sous le chiffre le plus à droite
+0 _ _ l 1
+0 0 0 r 0
+0 1 1 r 0
+
+; état 1: il suffit d'ajouter un 0 en bit de poids faible
+1 _ 0 * halt
+1 0 0 r 1
+1 1 1 r 1

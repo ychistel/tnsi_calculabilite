@@ -1,0 +1,28 @@
+; Programme qui donne la valeur binaire d'un nombre signé : complément à 2
+
+; Machine débute à l'état 0 avec la tête de lecture sous le chiffre de gauche
+
+; état 0: il faut déplacer la tête sous le chiffre le plus à droite
+0 _ _ l 1
+0 0 0 r 0
+0 1 1 r 0
+
+; état 1: complément à 1
+1 _ _ r 2
+1 0 1 l 1
+1 1 0 l 1
+
+; état 2: on remet la tête de lecture sous le bit de poids faible avec arrêt
+2 _ _ l 3
+2 0 0 r 2
+2 1 1 r 2
+
+; état 3: on ajoute 1 en binaire
+3 _ _ * halt
+3 0 1 * 4
+3 1 0 l 3
+
+; état 4 : état final en replaçant la tête sous le bit de poids faible
+4 _ _ l halt
+4 0 0 r 4
+4 1 1 r 4

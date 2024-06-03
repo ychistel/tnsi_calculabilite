@@ -1,0 +1,15 @@
+; Programme qui remplace chaque 0 par 1
+; Input: a string of 0's and 1's, eg '1001001'
+
+
+; Machine starts in state 0
+
+; State 0: read the leftmost symbol
+0 _ _ r *
+0 0 0 * s2
+0 1 1 * s2
+
+; State 1, 1i: find the rightmost symbol
+s2 _ _ * halt
+s2 0 1 r *
+s2 1 1 r *
