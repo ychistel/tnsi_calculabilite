@@ -33,12 +33,12 @@ Exercices
 
     Écrire la table de transition d'une machine de Turing qui donne la valeur absolue d'un nombre binaire inscrit sur le ruban.
 
-    .. exercice::
+.. exercice::
 
-        Le langage Python possède deux instructions, **eval** et **exec**, qui prennent en entrée des chaines de caractères et cherchent à les exécuter.
+    Le langage Python possède deux instructions, **eval** et **exec**, qui prennent en entrée des chaines de caractères et cherchent à les exécuter.
 
-        #.  Ouvrir l'éditeur Python Thonny et créer un fichier python nommé ``donnée-programme.py``.
-        #.  Écrire l'instruction python qui affiche le message ``machine de Turing``.
-        #.  Transformer cette instruction en chaine de caractères puis procéder à son exécution avec l'instruction ``eval``.
-        #.  Écrire un programme qui vérifie la parité d'un nombre entier saisi par l'utilisateur sous forme d'une chaîne de caractères. Procéder à son exécution dans l'interpréteur python.
-        #.  Écrire la création d'une liste de nombres entiers positifs multiples de 3 compris entre 1 et 20 sous forme d'une chaine de caractères. Procéder à son exécution et contrôler le résultat.
+    #.  Ouvrir l'éditeur Python Thonny et créer un fichier python nommé ``donnée-programme.py``.
+    #.  Écrire l'instruction python qui affiche le message ``machine de Turing``.
+    #.  Transformer cette instruction en chaine de caractères puis procéder à son exécution avec l'instruction ``eval``.
+    #.  Écrire un programme qui vérifie la parité d'un nombre entier saisi par l'utilisateur sous forme d'une chaîne de caractères. Procéder à son exécution dans l'interpréteur python.
+    #.  Écrire la création d'une liste de nombres entiers positifs multiples de 3 compris entre 1 et 20 sous forme d'une chaine de caractères. Procéder à son exécution et contrôler le résultat.
